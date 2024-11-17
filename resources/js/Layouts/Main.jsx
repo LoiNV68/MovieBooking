@@ -1,13 +1,16 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
+
+import Header from './Header';
+import Footer from './Footer';
 function Main({children}) {
     return ( 
-        <div className="container">
-            <div className="row">
-                <div className="col-3">Test</div>
-                <div className="col-9">{children}</div>
-            </div>
-        </div>
+        <>
+            <Header/>
+            {children}
+            <Footer/>
+        </>
      );
 }
 

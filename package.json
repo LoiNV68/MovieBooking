@@ -12,14 +12,18 @@
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.4.47",
+        "sass-embedded": "^1.81.0",
         "tailwindcss": "^3.4.13",
         "vite": "^5.0"
     },
     "dependencies": {
+        "@inertiajs/inertia": "^0.11.1",
         "@inertiajs/react": "^1.2.0",
         "bootstrap": "^5.3.3",
         "dom": "^0.0.3",
+        "nice-select2": "^2.2.0",
         "react": "^18.3.1",
-        "react-dom": "^18.3.1"
+        "react-dom": "^18.3.1",
+        "react-helmet": "^6.1.0"
     }
 }
